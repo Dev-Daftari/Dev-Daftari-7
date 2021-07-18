@@ -1,32 +1,13 @@
-const num=0;
 
-document.getElementById('css_sheet').setAttribute('href', `./style/${num}/${num}.css`);
-const medialink = `<link href="./style/0/media0.css" rel="stylesheet">`;
-document.getElementById("css_sheet").insertAdjacentHTML("afterend", medialink);
 const name = "Dev Daftari";
 const container = document.getElementsByClassName("container")[0];
 const heading = document.getElementById("heading");
 
-const iconlink = `<link rel="icon" href="./style/0/icon1.png" type="image/icon type">`;
-document.getElementById("css_sheet").insertAdjacentHTML("afterend", iconlink);
-
-
-// Person name set
-
-document.getElementById("logo").innerHTML = "DEV";
-
-// Setting title
-
-document.getElementsByTagName("title")[0].innerHTML = `Dev Daftari's Personal Website`;
-
-// Setting footer
-
-document.getElementById("footer").innerHTML = `&copy 2021 ${name} - All rights reserved.`;
 
 // Setting h1 tag text according to the person
-const text = "Hello, I'm <span>Dev</span>";
+// const text = "Hello, I'm <span>Dev</span>";
 // heading.insertAdjacentHTML(text);
-document.getElementById("heading").innerHTML = "Hello, I'm Dev";
+// document.getElementById("heading").innerHTML = "Hello, I'm Dev";
 
 // Creating a div containing the profile picture of the person 
 
