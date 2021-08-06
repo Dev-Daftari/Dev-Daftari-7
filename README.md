@@ -9,6 +9,8 @@ ___
 * Hosting through Heroku
 ___
 ## **Preview** :
+![Website](./previews/Dev.jfif)
+___
 ![home](./previews/home.png)
 ___
 ![about](./previews/about.png)
@@ -18,7 +20,7 @@ ___
 ![contact](./previews/contact.png)
 ___
 ## **Download Links** : 
-You can access our project form your local machine !
+You can access my project from your local machine !
 >https : https://github.com/Dev-Daftari/Dev-Daftari-7.git
 
 ```bash
